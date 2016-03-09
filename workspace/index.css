@@ -1,0 +1,89 @@
+body
+{
+
+}
+
+
+.index
+{
+	background-image: url('img/index.png');
+	background-repeat: no-repeat;
+	width: 400px;
+	height: 500px;
+	background-size: 100%;
+		margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+
+}
+
+.index:hover
+{
+
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  writing-mode: lr-tb;
+  -webkit-transition:-webkit-transform .9s; 
+  -moz-transition:-moz-transform .9s;      
+  -o-transition:-o-transform .9s;           
+  -ms-transition:-ms-transform .9s;         
+  transition:transform .9s;
+
+
+}
+
+.dieu
+{
+	background-image: url('img/dieu.png');
+	background-repeat: no-repeat;
+	width: 500px;
+	height: 500px;
+	background-size: 100%;
+ 	margin-top: -600px;
+	float: right;
+	padding-right: 100px;
+}
+
+.lienIndex
+{
+ 	font-size: 150px;
+ 	font-family: 'Montserrat', sans-serif;
+ 	text-transform: uppercase;
+}
+
+#bientot, #oui, #non
+{
+	text-decoration: none;
+		font-family: 'Montserrat', sans-serif;
+		color:#a6a5e1;
+		text-transform: uppercase;
+		font-size: 100px;
+}
+
+
+
+.text
+{
+	font-size: 150px;
+	   font-family: 'Montserrat', sans-serif;
+	   text-transform: uppercase;
+}
+
+.phraseIndex
+{
+		font-family: 'Montserrat', sans-serif;
+	    text-transform: uppercase;
+	    font-size: 60px;
+	    padding-bottom: 20px;
+}
+
+.layout 
+{
+	width:1500px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	line-height: 100px;
+	padding-top: 10px;
+}

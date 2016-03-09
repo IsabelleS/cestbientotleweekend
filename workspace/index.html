@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset='utf8'>
+		<link rel="stylesheet" type="text/css" href="index.css"/>
+		
+	</head>
+
+	<body>
+		<div class="layout">
+			<div class="text"><strong>Oh, un index.</strong></div>
+			<audio  preload="auto" id="beep-one">
+				<source src="7363.mp3"></source>
+			</audio>
+			<a class="ImagesLien" href="#"><div class="index"></div></a>
+			<div class="dieu"></div>
+			<div class="phraseIndex">EST-CE QUE C'EST BIENTOT LE WEEK-END ?<br></div>
+			<a id="non"class"lienIndex" href="non/non.html">NON<br></a>
+			<a id="bientot" class"lienIndex" href="bientot/bientot.html">Bientôt.<br></a>
+			<a id="oui"class"lienIndex" href="oui/oui.html">OUI<br></a>
+
+		</div>
+
+	</body>
+
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+		<script>
+			var beepOne = $("#beep-one")[0];
+			$(".ImagesLien")
+			.mouseenter(function() {
+			beepOne.play();
+			});
+
+		</script>
+</html>
